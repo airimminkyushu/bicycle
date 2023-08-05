@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* 全体の共通設定 */
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    color: #383e45;
+    text-align: center;
+    font-size: 0.9em;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* headerの設定 */
+.header{
+    display: flex;
+    justify-content:space-between;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 4%;
+    line-height: 1px;
+}
+.profile img {
+    width: 120px;
+    padding: 10px 0;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row; 
+    gap: 30px;
+    margin: 30px 0;
+}
+.nav ul li {
+    font-size: 14px;
+}
+.nav ul li a:hover {
+    color: #aaa;
+}
+.main-pic img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* ここからAboutの設定 */
+.about-items {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.section-title {
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 1px solid #383e45;;
+    margin: 80px 0 50px 0;
+    font-size: 2.2em;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.about-items img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about-texts {
+    text-align: left;
+}
+.about-texts h4 {
+    margin-bottom: 5px;
+}
+
+/* bicycleの設定 */
+.bicycle ul {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.bicycle ul li {
+    margin-bottom: 20px;
+}
+.bicycle ul li img {
+    width: 300px;
+}
+main {
+    margin-bottom: 150px;
+}
